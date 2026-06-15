@@ -130,3 +130,11 @@ Dockerfile.dev
 # Nx (if using Nx later)
 .nx/
 nx.json
+node_modules
+
+node_modules/
+.next/
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+.env
+.env.local
