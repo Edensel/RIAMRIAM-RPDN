@@ -1,0 +1,132 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+.pnp.mjs
+.yarn/install-state.gz
+
+# Next.js build output
+/.next/
+/out/
+
+# Production builds
+/build/
+/dist/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+.env*.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Testing
+/coverage/
+.nyc_output/
+.nyc_output
+*.lcov
+
+# Misc
+.cache/
+.vercel/
+.vercel
+.output/
+*.log
+/.sass-cache/
+.parcel-cache/
+
+# Large assets (if versioned separately)
+# Uncomment if you don't want to commit large media files
+# *.mp4
+# *.avi
+# *.mov
+# *.psd
+# *.ai
+# *.zip
+# *.tar.gz
+# *.rar
+# *.7z
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Package manager locks (keep one, comment others)
+# package-lock.json  # Keep this one for npm
+# yarn.lock          # Uncomment if using yarn
+# pnpm-lock.yaml     # Uncomment if using pnpm
+
+# Next.js specific
+.next
+.next/
+out/
+build/
+dist/
+
+# Storybook (if you add it later)
+storybook-static/
+*.stories.mdx
+*.stories.@(js|jsx|ts|tsx|mdx)
+
+# Docker
+docker-compose.override.yml
+*.dockerignore
+Dockerfile.dev
+
+# Sentry (if you add error tracking)
+.sentryclirc
+.sentry-native/
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettiercache
+
+# Turbo (if using monorepo later)
+.turbo/
+
+# Nx (if using Nx later)
+.nx/
+nx.json
