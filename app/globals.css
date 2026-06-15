@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #F8F7F4;
+  color: #1A1A1A;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h1, .h1-style {
+  font-size: 48px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h2, .h2-style {
+  font-size: 32px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+h3, .h3-style {
+  font-size: 22px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+::selection {
+  background: #D4860B;
+  color: #F8F7F4;
+}
+
+.section-shell {
+  width: min(92%, 1280px);
+  margin-inline: auto;
+}
+
+@media (min-width: 1024px) {
+  .section-shell {
+    width: 70%;
+    max-width: 1280px;
+  }
+}
+
+.link-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 2px;
+  transition: background-size 180ms ease;
+}
+
+.link-underline:hover,
+.link-underline:focus-visible {
+  background-size: 100% 2px;
+}
+
+.brand-marquee {
+  animation: brand-marquee 34s linear infinite;
+}
+
+@keyframes brand-marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
