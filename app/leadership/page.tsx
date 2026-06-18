@@ -32,6 +32,7 @@ const leaders: Leader[] = [
     bio: "Former teacher and founder of the original RIAMRIAM initiative with experience in NGO management, civic engagement, and peace education.",
     tags: ["Civic Engagement", "NGO Management", "Peace Education"],
     gradient: "from-warm to-primary",
+    photo: "/images/David Ateyo.jpeg",
     category: "board"
   },
   {
