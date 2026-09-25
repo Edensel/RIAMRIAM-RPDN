@@ -19,75 +19,75 @@ interface GalleryItem {
 const galleryItems: GalleryItem[] = [
   {
     id: "1",
-    title: "Turkana Grassroots Peace Dialogue Gathering",
+    title: "Turkana Grassroots Peace Assembly",
     category: "Peacebuilding",
     image: "/images/turkana_peace_dialogue.png",
     date: "August 2026",
-    location: "Lodwar, Turkana County",
-    description: "Traditional kraal elders and youth peace ambassadors assembling under the acacia tree for community reconciliation dialogues."
+    location: "Lodwar Municipality, Turkana County",
+    description: "Traditional kraal elders, youth leaders, and local authorities gathering under the historic peace acacia tree to resolve pasture management disputes."
   },
   {
     id: "2",
-    title: "Ateker Corridor Borderland Treaty Signing",
+    title: "Ateker Cross-Border Coexistence Pact",
     category: "Cross-Border Corridors",
     image: "/images/hero_turkana.png",
     date: "October 2026",
-    location: "Moroto Border Cluster (Kenya-Uganda)",
-    description: "Historic dry-season grazing and pasture sharing agreement signed between Turkana and Karimojong elders."
+    location: "Moroto Cluster (Kenya - Uganda)",
+    description: "Turkana and Karimojong elders signing a historic dry-season grazing treaty, securing shared water points and peaceful borderland transit."
   },
   {
     id: "3",
-    title: "Women Peace Circles Mediation Workshop",
+    title: "Women Peace Circles: Champions of Community Reconciliation",
     category: "Women & Youth",
     image: "/images/story_women.png",
     date: "September 2026",
-    location: "Lokichoggio, Kenya",
-    description: "Pastoralist women champions participating in conflict resolution training and dispute mediation techniques."
+    location: "Lokichoggio, Turkana West",
+    description: "Pastoralist women leaders undergoing advanced mediation and conflict prevention training, elevating women's voices in traditional kraal assemblies."
   },
   {
     id: "4",
-    title: "Youth Peace Sports Brigade Tournament",
+    title: "Youth Peace Sports Brigade & Vocational Mentorship",
     category: "Women & Youth",
     image: "/images/story_youth.png",
     date: "July 2026",
-    location: "Kapoeta Border Corridor (South Sudan)",
-    description: "Cross-border youth sports tournament bringing together former cattle rustlers for peacebuilding and vocational mentorship."
+    location: "Kapoeta Corridor (South Sudan Border)",
+    description: "Uniting young pastoralists through cross-border peace football tournaments and micro-enterprise grants, offering sustainable alternatives to cattle rustling."
   },
   {
     id: "5",
-    title: "Climate-Smart Agriculture & Sand Dam Project",
+    title: "Climate Resilience & Community Sand Dam Development",
     category: "Climate Resilience",
     image: "/images/story_climate.png",
     date: "May 2026",
-    location: "Kerio River Basin, Kenya",
-    description: "Community water harvesting sand dam construction providing sustainable water access during prolonged dry seasons."
+    location: "Kerio Basin, Turkana County",
+    description: "Constructing sand dams and dryland water harvesting infrastructure to relieve climate-induced resource stress and prevent water conflicts."
   },
   {
     id: "6",
-    title: "Cross-Border Livestock Tracking & Recovery Dialogue",
+    title: "Cross-Border Restitution & Animal Tracking Committee",
     category: "Peacebuilding",
     image: "/images/story_reconciliation.png",
     date: "June 2026",
-    location: "Nyangatom - Turkana Border",
-    description: "Joint peace committees coordinating livestock theft tracking, recovery, and inter-community restitution."
+    location: "Nyangatom - Turkana Borderland",
+    description: "Joint elder and youth committees tracking lost livestock, preventing retaliatory raids, and restoring trust across international boundaries."
   },
   {
     id: "7",
-    title: "RPDN Official Peace Advocacy Apparel",
+    title: "Grassroots Peace Ambassadors: Field Advocacy & Mobilization",
     category: "Community & Outreach",
     image: "/images/gallery/merch_tshirt.png",
-    date: "2026",
-    location: "Lodwar Headquarters",
-    description: "Community peace awareness apparel worn by field officers and peace ambassadors across operational corridors."
+    date: "Field Operations 2026",
+    location: "Lodwar & Regional Corridors",
+    description: "Equipping local peace monitors and youth champions with official advocacy gear to lead peace caravans and facilitate kraal reconciliation."
   },
   {
     id: "8",
-    title: "RPDN Environmental & Peace Field Tote",
+    title: "Sustainable Outreach Toolkits: Early Warning & Peace Dispatch",
     category: "Community & Outreach",
     image: "/images/gallery/merch_tote.png",
-    date: "2026",
-    location: "Turkana West",
-    description: "Eco-friendly outreach gear used during cross-border field missions and early warning dispatch distribution."
+    date: "Field Operations 2026",
+    location: "Turkana West Borderland",
+    description: "Distributing eco-friendly field toolkits carrying early warning bulletins, civic education materials, and signed peace treaties to remote settlements."
   }
 ];
 
