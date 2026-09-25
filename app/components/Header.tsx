@@ -12,6 +12,7 @@ const navItems = [
   ["Where we work", "/where-we-work"],
   ["Leadership", "/leadership"],
   ["News", "/news"],
+  ["Gallery", "/gallery"],
   ["Contact", "/contact"]
 ];
 

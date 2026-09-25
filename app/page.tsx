@@ -129,7 +129,7 @@ export default function Home() {
               Building Peace. Empowering Communities. Transforming Lives.
             </h1>
             <p className="mt-6 max-w-2xl text-base sm:text-lg leading-relaxed text-bone/90 font-sans mx-auto text-center">
-              Strengthening regional peace infrastructure, social cohesion, and climate resilience across pastoral borderlands in Kenya, Uganda, South Sudan, and Ethiopia.
+              Strengthening peace infrastructure, social cohesion, and climate resilience across communities.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
               <Link

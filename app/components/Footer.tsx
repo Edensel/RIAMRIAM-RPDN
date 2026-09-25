@@ -31,6 +31,7 @@ export default function Footer() {
             ["Leadership & Governance", "/leadership"],
             ["Strategic Priorities", "/strategic-priorities"],
             ["News & Updates", "/news"],
+            ["Photo Gallery", "/gallery"],
             ["Partnerships", "/partnerships"]
           ]}
         />
